@@ -1,0 +1,52 @@
+{
+  "token": "token",
+  "prefijo": "!",
+  "servidor_id": 1234,
+  "canal_id": 1234,
+  "bot": {
+    "nombre": "CoreBot",
+    "pie": "CoreBot"
+  },
+  "moneda": {
+    "nombre": "Coins",
+    "simbolo": "🪙"
+  },
+  "economia": {
+    "dinero_inicial": 100,
+    "maximo_bolsillo": 1000000,
+    "maximo_banco": 10000000
+  },
+  "trabajo": {
+    "cooldown": 3600,
+    "minimo": 100,
+    "maximo": 500
+  },
+  "diario": {
+    "cooldown": 86400,
+    "minimo": 500,
+    "maximo": 1000
+  },
+  "robo": {
+    "cooldown": 1800,
+    "probabilidad_exito": 60,
+    "porcentaje_minimo": 10,
+    "porcentaje_maximo": 35,
+    "penalizacion_fallo": 10
+  },
+  "ruleta": {
+    "cooldown": 10,
+    "apuesta_minima": 10,
+    "apuesta_maxima": 10000,
+    "probabilidades": {
+      "perder": 55,
+      "x2": 30,
+      "x3": 10,
+      "x5": 4,
+      "jackpot": 1
+    }
+  },
+  "staff": {
+    "roles": [123456],
+    "canal_registros_id": 789
+  }
+}
